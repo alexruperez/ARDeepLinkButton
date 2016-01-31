@@ -17,13 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLi-ZU-Y8D" customClass="ARDeepLinkButton" customModule="ARDeepLinkButton">
-                                <rect key="frame" x="277" y="277" width="46" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLi-ZU-Y8D" customClass="ARDeepLinkButton" customModule="ARDeepLinkButton">
+                                <rect key="frame" x="264" y="264" width="72" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="2u7-T4-yWi"/>
-                                    <constraint firstAttribute="width" constant="46" id="wJN-sz-sas"/>
+                                    <constraint firstAttribute="height" constant="72" id="2u7-T4-yWi"/>
+                                    <constraint firstAttribute="width" constant="72" id="wJN-sz-sas"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="MADBikeIcon"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="deepLink" value="madbike://"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="iTunesURL" value="https://itunes.apple.com/us/app/madbike/id1067596651?mt=8"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageContentMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -37,4 +53,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="MADBikeIcon" width="60" height="60"/>
+    </resources>
 </document>
