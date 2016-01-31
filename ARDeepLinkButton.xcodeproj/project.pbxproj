@@ -10,6 +10,14 @@
 		D572CD6C1C5E2F400082D870 /* ARDeepLinkButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D572CD6B1C5E2F400082D870 /* ARDeepLinkButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D572CD731C5E2F400082D870 /* ARDeepLinkButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D572CD681C5E2F400082D870 /* ARDeepLinkButton.framework */; };
 		D572CD781C5E2F400082D870 /* ARDeepLinkButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CD771C5E2F400082D870 /* ARDeepLinkButtonTests.swift */; };
+		D572CD831C5E2FCC0082D870 /* ARDeepLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CD821C5E2FCC0082D870 /* ARDeepLinkButton.swift */; };
+		D572CD8B1C5E30450082D870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CD8A1C5E30450082D870 /* AppDelegate.swift */; };
+		D572CD8D1C5E30450082D870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CD8C1C5E30450082D870 /* ViewController.swift */; };
+		D572CD901C5E30450082D870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D572CD8E1C5E30450082D870 /* Main.storyboard */; };
+		D572CD951C5E30450082D870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D572CD941C5E30450082D870 /* Assets.xcassets */; };
+		D572CD981C5E30450082D870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D572CD961C5E30450082D870 /* LaunchScreen.storyboard */; };
+		D572CDA31C5E30450082D870 /* ARDeepLinkButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CDA21C5E30450082D870 /* ARDeepLinkButtonExampleTests.swift */; };
+		D572CDAE1C5E30450082D870 /* ARDeepLinkButtonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572CDAD1C5E30450082D870 /* ARDeepLinkButtonExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +28,20 @@
 			remoteGlobalIDString = D572CD671C5E2F400082D870;
 			remoteInfo = ARDeepLinkButton;
 		};
+		D572CD9F1C5E30450082D870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D572CD5F1C5E2F400082D870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D572CD871C5E30450082D870;
+			remoteInfo = ARDeepLinkButtonExample;
+		};
+		D572CDAA1C5E30450082D870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D572CD5F1C5E2F400082D870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D572CD871C5E30450082D870;
+			remoteInfo = ARDeepLinkButtonExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +51,20 @@
 		D572CD721C5E2F400082D870 /* ARDeepLinkButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDeepLinkButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D572CD771C5E2F400082D870 /* ARDeepLinkButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDeepLinkButtonTests.swift; sourceTree = "<group>"; };
 		D572CD791C5E2F400082D870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D572CD821C5E2FCC0082D870 /* ARDeepLinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDeepLinkButton.swift; sourceTree = "<group>"; };
+		D572CD881C5E30450082D870 /* ARDeepLinkButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDeepLinkButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D572CD8A1C5E30450082D870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D572CD8C1C5E30450082D870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D572CD8F1C5E30450082D870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D572CD941C5E30450082D870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D572CD971C5E30450082D870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D572CD991C5E30450082D870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D572CD9E1C5E30450082D870 /* ARDeepLinkButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDeepLinkButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D572CDA21C5E30450082D870 /* ARDeepLinkButtonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDeepLinkButtonExampleTests.swift; sourceTree = "<group>"; };
+		D572CDA41C5E30450082D870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D572CDA91C5E30450082D870 /* ARDeepLinkButtonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDeepLinkButtonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D572CDAD1C5E30450082D870 /* ARDeepLinkButtonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDeepLinkButtonExampleUITests.swift; sourceTree = "<group>"; };
+		D572CDAF1C5E30450082D870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D572CD851C5E30450082D870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CD9B1C5E30450082D870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CDA61C5E30450082D870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +112,9 @@
 			children = (
 				D572CD6A1C5E2F400082D870 /* ARDeepLinkButton */,
 				D572CD761C5E2F400082D870 /* ARDeepLinkButtonTests */,
+				D572CD891C5E30450082D870 /* ARDeepLinkButtonExample */,
+				D572CDA11C5E30450082D870 /* ARDeepLinkButtonExampleTests */,
+				D572CDAC1C5E30450082D870 /* ARDeepLinkButtonExampleUITests */,
 				D572CD691C5E2F400082D870 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +124,9 @@
 			children = (
 				D572CD681C5E2F400082D870 /* ARDeepLinkButton.framework */,
 				D572CD721C5E2F400082D870 /* ARDeepLinkButtonTests.xctest */,
+				D572CD881C5E30450082D870 /* ARDeepLinkButtonExample.app */,
+				D572CD9E1C5E30450082D870 /* ARDeepLinkButtonExampleTests.xctest */,
+				D572CDA91C5E30450082D870 /* ARDeepLinkButtonExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D572CD6B1C5E2F400082D870 /* ARDeepLinkButton.h */,
+				D572CD821C5E2FCC0082D870 /* ARDeepLinkButton.swift */,
 				D572CD6D1C5E2F400082D870 /* Info.plist */,
 			);
 			path = ARDeepLinkButton;
@@ -84,6 +148,37 @@
 				D572CD791C5E2F400082D870 /* Info.plist */,
 			);
 			path = ARDeepLinkButtonTests;
+			sourceTree = "<group>";
+		};
+		D572CD891C5E30450082D870 /* ARDeepLinkButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				D572CD8A1C5E30450082D870 /* AppDelegate.swift */,
+				D572CD8C1C5E30450082D870 /* ViewController.swift */,
+				D572CD8E1C5E30450082D870 /* Main.storyboard */,
+				D572CD941C5E30450082D870 /* Assets.xcassets */,
+				D572CD961C5E30450082D870 /* LaunchScreen.storyboard */,
+				D572CD991C5E30450082D870 /* Info.plist */,
+			);
+			path = ARDeepLinkButtonExample;
+			sourceTree = "<group>";
+		};
+		D572CDA11C5E30450082D870 /* ARDeepLinkButtonExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D572CDA21C5E30450082D870 /* ARDeepLinkButtonExampleTests.swift */,
+				D572CDA41C5E30450082D870 /* Info.plist */,
+			);
+			path = ARDeepLinkButtonExampleTests;
+			sourceTree = "<group>";
+		};
+		D572CDAC1C5E30450082D870 /* ARDeepLinkButtonExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D572CDAD1C5E30450082D870 /* ARDeepLinkButtonExampleUITests.swift */,
+				D572CDAF1C5E30450082D870 /* Info.plist */,
+			);
+			path = ARDeepLinkButtonExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +231,59 @@
 			productReference = D572CD721C5E2F400082D870 /* ARDeepLinkButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D572CD871C5E30450082D870 /* ARDeepLinkButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D572CDB01C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExample" */;
+			buildPhases = (
+				D572CD841C5E30450082D870 /* Sources */,
+				D572CD851C5E30450082D870 /* Frameworks */,
+				D572CD861C5E30450082D870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDeepLinkButtonExample;
+			productName = ARDeepLinkButtonExample;
+			productReference = D572CD881C5E30450082D870 /* ARDeepLinkButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D572CD9D1C5E30450082D870 /* ARDeepLinkButtonExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D572CDB31C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExampleTests" */;
+			buildPhases = (
+				D572CD9A1C5E30450082D870 /* Sources */,
+				D572CD9B1C5E30450082D870 /* Frameworks */,
+				D572CD9C1C5E30450082D870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D572CDA01C5E30450082D870 /* PBXTargetDependency */,
+			);
+			name = ARDeepLinkButtonExampleTests;
+			productName = ARDeepLinkButtonExampleTests;
+			productReference = D572CD9E1C5E30450082D870 /* ARDeepLinkButtonExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D572CDA81C5E30450082D870 /* ARDeepLinkButtonExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D572CDB61C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExampleUITests" */;
+			buildPhases = (
+				D572CDA51C5E30450082D870 /* Sources */,
+				D572CDA61C5E30450082D870 /* Frameworks */,
+				D572CDA71C5E30450082D870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D572CDAB1C5E30450082D870 /* PBXTargetDependency */,
+			);
+			name = ARDeepLinkButtonExampleUITests;
+			productName = ARDeepLinkButtonExampleUITests;
+			productReference = D572CDA91C5E30450082D870 /* ARDeepLinkButtonExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +300,17 @@
 					D572CD711C5E2F400082D870 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					D572CD871C5E30450082D870 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D572CD9D1C5E30450082D870 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D572CD871C5E30450082D870;
+					};
+					D572CDA81C5E30450082D870 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D572CD871C5E30450082D870;
+					};
 				};
 			};
 			buildConfigurationList = D572CD621C5E2F400082D870 /* Build configuration list for PBXProject "ARDeepLinkButton" */;
@@ -160,6 +319,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D572CD5E1C5E2F400082D870;
 			productRefGroup = D572CD691C5E2F400082D870 /* Products */;
@@ -168,6 +328,9 @@
 			targets = (
 				D572CD671C5E2F400082D870 /* ARDeepLinkButton */,
 				D572CD711C5E2F400082D870 /* ARDeepLinkButtonTests */,
+				D572CD871C5E30450082D870 /* ARDeepLinkButtonExample */,
+				D572CD9D1C5E30450082D870 /* ARDeepLinkButtonExampleTests */,
+				D572CDA81C5E30450082D870 /* ARDeepLinkButtonExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +350,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D572CD861C5E30450082D870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D572CD981C5E30450082D870 /* LaunchScreen.storyboard in Resources */,
+				D572CD951C5E30450082D870 /* Assets.xcassets in Resources */,
+				D572CD901C5E30450082D870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CD9C1C5E30450082D870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CDA71C5E30450082D870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D572CD831C5E2FCC0082D870 /* ARDeepLinkButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +393,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D572CD841C5E30450082D870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D572CD8D1C5E30450082D870 /* ViewController.swift in Sources */,
+				D572CD8B1C5E30450082D870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CD9A1C5E30450082D870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D572CDA31C5E30450082D870 /* ARDeepLinkButtonExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D572CDA51C5E30450082D870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D572CDAE1C5E30450082D870 /* ARDeepLinkButtonExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +426,36 @@
 			target = D572CD671C5E2F400082D870 /* ARDeepLinkButton */;
 			targetProxy = D572CD741C5E2F400082D870 /* PBXContainerItemProxy */;
 		};
+		D572CDA01C5E30450082D870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D572CD871C5E30450082D870 /* ARDeepLinkButtonExample */;
+			targetProxy = D572CD9F1C5E30450082D870 /* PBXContainerItemProxy */;
+		};
+		D572CDAB1C5E30450082D870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D572CD871C5E30450082D870 /* ARDeepLinkButtonExample */;
+			targetProxy = D572CDAA1C5E30450082D870 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D572CD8E1C5E30450082D870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D572CD8F1C5E30450082D870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D572CD961C5E30450082D870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D572CD971C5E30450082D870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D572CD7A1C5E2F400082D870 /* Debug */ = {
@@ -308,6 +550,7 @@
 		D572CD7D1C5E2F400082D870 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +561,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D572CD7E1C5E2F400082D870 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -357,6 +602,76 @@
 			};
 			name = Release;
 		};
+		D572CDB11C5E30450082D870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARDeepLinkButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D572CDB21C5E30450082D870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARDeepLinkButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D572CDB41C5E30450082D870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARDeepLinkButtonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDeepLinkButtonExample.app/ARDeepLinkButtonExample";
+			};
+			name = Debug;
+		};
+		D572CDB51C5E30450082D870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARDeepLinkButtonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDeepLinkButtonExample.app/ARDeepLinkButtonExample";
+			};
+			name = Release;
+		};
+		D572CDB71C5E30450082D870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARDeepLinkButtonExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARDeepLinkButtonExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D572CDB81C5E30450082D870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARDeepLinkButtonExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.ARDeepLinkButtonExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARDeepLinkButtonExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -376,12 +691,38 @@
 				D572CD7E1C5E2F400082D870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D572CD7F1C5E2F400082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D572CD801C5E2F400082D870 /* Debug */,
 				D572CD811C5E2F400082D870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D572CDB01C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D572CDB11C5E30450082D870 /* Debug */,
+				D572CDB21C5E30450082D870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D572CDB31C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D572CDB41C5E30450082D870 /* Debug */,
+				D572CDB51C5E30450082D870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D572CDB61C5E30450082D870 /* Build configuration list for PBXNativeTarget "ARDeepLinkButtonExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D572CDB71C5E30450082D870 /* Debug */,
+				D572CDB81C5E30450082D870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
