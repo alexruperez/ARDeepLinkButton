@@ -2,7 +2,6 @@
 
 [![Join the chat at https://gitter.im/alexruperez/ARDeepLinkButton](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/alexruperez/ARDeepLinkButton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
-[![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARDeepLinkButton.svg?style=flat)](http://github.com/alexruperez/ARDeepLinkButton/issues)
 [![CI Status](http://img.shields.io/travis/alexruperez/ARDeepLinkButton.svg?style=flat)](https://travis-ci.org/alexruperez/ARDeepLinkButton)
 [![Version](https://img.shields.io/cocoapods/v/ARDeepLinkButton.svg?style=flat)](http://cocoadocs.org/docsets/ARDeepLinkButtong)
 [![License](https://img.shields.io/cocoapods/l/ARDeepLinkButton.svg?style=flat)](http://cocoadocs.org/docsets/ARDeepLinkButton)
