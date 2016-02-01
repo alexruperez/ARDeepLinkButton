@@ -8,11 +8,20 @@
 
 import UIKit
 
+// MARK: - ARDeepLinkButton
+
+/**
+UIButton subclass that handle deep links, shows in-app SKStoreProductViewController or redirects to the AppStore.
+*/
 @IBDesignable
 public class ARDeepLinkButton: UIButton {
     
+    // MARK: - Properties
+    
+    /// Example: "madbike://".
     @IBInspectable public var deepLink: String?
     
+    /// Example: "https://itunes.apple.com/us/app/madbike/id1067596651?mt=8".
     @IBInspectable public var iTunesURL: String? {
         didSet {
             if let iTunesURL = self.iTunesURL {
@@ -29,6 +38,7 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /// Corner radius.
     @IBInspectable public var cornerRadius: CGFloat {
         set {
             layer.masksToBounds = true
@@ -39,6 +49,7 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /// Border width.
     @IBInspectable public var borderWidth: CGFloat {
         set {
             layer.borderWidth = newValue
@@ -48,6 +59,7 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /// Border color.
     @IBInspectable public var borderColor: UIColor? {
         set {
             layer.borderColor = newValue?.CGColor
@@ -57,6 +69,7 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /// Image UIViewContentMode value. Example: 1 for .ScaleAspectFit.
     @IBInspectable public var imageContentMode: Int {
         set {
             if let imageView = imageView {
@@ -72,6 +85,7 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /// Image corner radius.
     @IBInspectable public var imageCornerRadius: CGFloat {
         set {
             if let imageView = imageView {
@@ -83,9 +97,15 @@ public class ARDeepLinkButton: UIButton {
         }
     }
     
+    /**
+     Deep link handler, here you have access to SKStoreProductViewController in order to customize it.
+     */
     public lazy var deepLinkHandler = ARDeepLinkHandler()
     
+    /// Automatically generated when iTunesURL is setted.
     public private(set) var appStoreId: String?
+    
+    // MARK: - Initializers
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -97,16 +117,39 @@ public class ARDeepLinkButton: UIButton {
         self.addTarget(self, action: "touchUpInsideAction:", forControlEvents: .TouchUpInside)
     }
     
+    /**
+     Initializes and returns a newly allocated ARDeepLinkButton with the specified deepLink and iTunesURL.
+     
+     - parameter deepLink:      Example: "madbike://".
+     - parameter iTunesURL:     Example: "https://itunes.apple.com/us/app/madbike/id1067596651?mt=8".
+     
+     - returns: An initialized ARDeepLinkButton or nil if the object couldn't be created.
+     */
     convenience public init(deepLink: String?, iTunesURL: String?) {
         self.init(frame: CGRectZero)
         self.initialize(deepLink, iTunesURL: iTunesURL)
     }
     
+    // MARK: - Private methods
+    
+    /**
+     Configures the ARDeepLinkButton with the specified deepLink and iTunesURL.
+     
+     - parameter deepLink:      Example: "madbike://".
+     - parameter iTunesURL:     Example: "https://itunes.apple.com/us/app/madbike/id1067596651?mt=8".
+     */
     private func initialize(deepLink: String?, iTunesURL: String?) {
         self.deepLink = deepLink
         self.iTunesURL = iTunesURL
     }
     
+    // MARK: - @IBActions
+    
+    /**
+     Handles the ARDeepLinkButton .TouchUpInside @IBAction.
+     
+     - parameter sender:        @IBAction sender.
+     */
     @IBAction public func touchUpInsideAction(sender: UIButton) {
         self.deepLinkHandler.handle(self.deepLink, appStoreId: self.appStoreId, iTunesURLString: self.iTunesURL)
     }
