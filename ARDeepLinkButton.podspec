@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ARDeepLinkButton"
-  s.version      = "0.1.0"
+  s.version      = "1.0.0"
   s.summary      = "#UIButton subclass that handle deep links, shows in-app #SKStoreProductViewController or redirects to the #AppStore. Written in #Swift 2.0"
   s.homepage     = "https://github.com/alexruperez/ARDeepLinkButton"
   s.screenshots  = "https://raw.githubusercontent.com/alexruperez/ARDeepLinkButton/master/screenshot.png"

@@ -23,7 +23,7 @@ it, simply add the following line to your `Podfile`:
 
 #### Or you can install it with [Swift Package Manager](https://github.com/apple/swift-package-manager):
 
-    .Package(url: "ssh://git@github.com:alexruperez/ARDeepLinkButton.git", versions: Version(0,1,0)..<Version(0,2,0)),
+    .Package(url: "ssh://git@github.com:alexruperez/ARDeepLinkButton.git", versions: Version(1,0,0)..<Version(2,0,0)),
 
 #### Or you can install it with [Carthage](https://github.com/Carthage/Carthage):
 
