@@ -10,14 +10,14 @@
 
 ## Overview
 
-ARDeepLinkButton is an UIButton subclass that handle deep links, shows in-app SKStoreProductViewController or redirects to the AppStore. Written in Swift 2.0
+`ARDeepLinkButton` is an `UIButton` subclass that handle deep links, shows in-app `SKStoreProductViewController` or redirects to the AppStore. Written in Swift 2.0
 
 ![ARDeepLinkButton Screenshot](https://raw.githubusercontent.com/alexruperez/ARDeepLinkButton/master/screenshot.png)
 
 ### Installation
 
-ARDeepLinkButton is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+`ARDeepLinkButton` is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your `Podfile`:
 
     pod "ARDeepLinkButton"
 
@@ -32,6 +32,33 @@ it, simply add the following line to your Podfile:
 #### Or you can add the following files to your project:
 * `ARDeepLinkButton.swift`
 * `ARDeepLinkHandler.swift`
+
+### Usage
+
+`ARDeepLinkButton` is `@IBDesignable` and has the following properties:
+
+```swift
+@IBInspectable public var deepLink: String? // Example: "madbike://"
+@IBInspectable public var iTunesURL: String? // Example: "https://itunes.apple.com/us/app/madbike/id1067596651?mt=8"
+@IBInspectable public var cornerRadius: CGFloat // UIButton corner radius.
+@IBInspectable public var borderWidth: CGFloat // UIButton border width.
+@IBInspectable public var borderColor: UIColor? // UIButton border color.
+@IBInspectable public var imageContentMode: Int // UIButton image UIViewContentMode value. Example: 1 for .ScaleAspectFit
+@IBInspectable public var imageCornerRadius: CGFloat // UIButton image corner radius.
+public lazy var deepLinkHandler = ARDeepLinkHandler() // Deep link handler, here you have access to SKStoreProductViewController to customize it.
+public private(set) var appStoreId: String? // Automatically generated when iTunesURL is setted.
+```
+
+#### iOS 9 Reminder
+
+Add your deep link to `LSApplicationQueriesSchemes` in your `Info.plist`
+
+```plist
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>madbike</string>
+</array>
+```
 
 # Etc.
 
