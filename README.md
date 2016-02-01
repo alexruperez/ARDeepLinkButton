@@ -45,8 +45,16 @@ it, simply add the following line to your `Podfile`:
 @IBInspectable public var borderColor: UIColor? // UIButton border color.
 @IBInspectable public var imageContentMode: Int // UIButton image UIViewContentMode value. Example: 1 for .ScaleAspectFit
 @IBInspectable public var imageCornerRadius: CGFloat // UIButton image corner radius.
-public lazy var deepLinkHandler = ARDeepLinkHandler() // Deep link handler, here you have access to SKStoreProductViewController to customize it.
+public lazy var deepLinkHandler = ARDeepLinkHandler() // Deep link handler, here you have access to SKStoreProductViewController in order to customize it.
 public private(set) var appStoreId: String? // Automatically generated when iTunesURL is setted.
+```
+
+`ARDeepLinkHandler` can be used independently and has the following public methods:
+
+```swift
+public func handle(deepLink: String?, appStoreId: String?, iTunesURLString: String?) -> Bool
+public func handle(appStoreId: String?, iTunesURLString: String?) -> Bool
+public func handle(URLString: String?) -> Bool
 ```
 
 #### iOS 9 Reminder
