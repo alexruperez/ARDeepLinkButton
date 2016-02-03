@@ -10,7 +10,7 @@
 
 ## Overview
 
-`ARDeepLinkButton` is an `UIButton` subclass that handle deep links, shows in-app `SKStoreProductViewController` or redirects to the AppStore. Written in Swift 2.0
+`ARDeepLinkButton` is an `UIButton` subclass that handle deep links, shows in-app `SKStoreProductViewController` or redirects to the AppStore. Written in Swift 2.1.1
 
 ![ARDeepLinkButton Screenshot](https://raw.githubusercontent.com/alexruperez/ARDeepLinkButton/master/screenshot.png)
 
