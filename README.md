@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ARDeepLinkButton.svg?style=flat)](http://cocoadocs.org/docsets/ARDeepLinkButton)
 [![License](https://img.shields.io/cocoapods/l/ARDeepLinkButton.svg?style=flat)](http://cocoadocs.org/docsets/ARDeepLinkButton)
 [![Platform](https://img.shields.io/cocoapods/p/ARDeepLinkButton.svg?style=flat)](http://cocoadocs.org/docsets/ARDeepLinkButton)
+[![GetBadges Game](https://alexruperez-ardeeplinkbutton.getbadges.io/shield/company/alexruperez-ardeeplinkbutton)](https://alexruperez-ardeeplinkbutton.getbadges.io/?ref=shield-game)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/ARDeepLinkButton/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 
 ## Overview
